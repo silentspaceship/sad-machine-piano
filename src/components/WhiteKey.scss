@@ -1,0 +1,13 @@
+.white-key {
+  width: 3.75rem;
+  height: 16rem;
+  border: solid black 2px;
+  border-radius: 0 0 4px 4px;
+  background-image: linear-gradient(to bottom, lightgray, white);
+  box-sizing: border-box;
+  cursor: pointer;
+
+  &.active {
+    filter: brightness(0.5);
+  }
+}

@@ -1,0 +1,20 @@
+@import url("https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner&display=swap");
+.piano {
+  position: relative;
+  height: 16rem;
+  padding: 6.25rem 2rem 0.5rem 2rem;
+  background-image: linear-gradient(45deg, #28313b, #485461);
+  /* border: solid darkgray 1.5px; */
+  border-radius: 0.5rem;
+}
+
+.piano-logo {
+  position: absolute;
+  z-index: 1;
+  top: 0.5rem;
+  right: 2rem;
+  font-family: "Edu VIC WA NT Beginner", sans-serif;
+  font-size: 0.75rem;
+  color: whitesmoke;
+  opacity: 0.2;
+}

@@ -1,0 +1,16 @@
+.keys {
+  position: relative;
+  width: auto;
+  border: solid black 0.25rem;
+  border-top-width: 8px;
+  top: -4px;
+  background-color: black;
+}
+.white-keys {
+  display: flex;
+}
+.black-keys {
+  top: -16rem;
+  position: relative;
+  display: flex;
+}

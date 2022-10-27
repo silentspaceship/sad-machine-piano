@@ -1,0 +1,55 @@
+.black-key {
+  position: absolute;
+  width: 2.5rem;
+  height: 10rem;
+  border: solid black 6px;
+  border-top-width: 6px;
+  border-radius: 0 0 6px 6px;
+  background-image: linear-gradient(to bottom, rgb(41, 41, 41), black);
+  box-sizing: border-box;
+  cursor: pointer;
+
+  &.active {
+    filter: brightness(5);
+  }
+}
+
+.Csh5 {
+  left: 2.25rem;
+}
+
+.Dsh5 {
+  left: 6.5rem;
+}
+
+.Fsh5 {
+  left: 13.5rem;
+}
+
+.Gsh5 {
+  left: 17.5rem;
+}
+
+.Ash5 {
+  left: 21.5rem;
+}
+
+.Csh6 {
+  left: 28.5rem;
+}
+
+.Dsh6 {
+  left: 32.8rem;
+}
+
+.Fsh6 {
+  left: 39.7rem;
+}
+
+.Gsh6 {
+  left: 43.8rem;
+}
+
+.Ash6 {
+  left: 47.8rem;
+}

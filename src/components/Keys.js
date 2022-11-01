@@ -5,37 +5,37 @@ import "./Keys.scss";
 import { BlackKey } from "./BlackKey";
 import { WhiteKey } from "./WhiteKey";
 
-export function Keys() {
+export function Keys(props) {
   return (
     <div className="keys">
       <div className="white-keys">
-        <WhiteKey note="C5" />
-        <WhiteKey note="D5" />
-        <WhiteKey note="E5" />
-        <WhiteKey note="F5" />
-        <WhiteKey note="G5" />
-        <WhiteKey note="A5" />
-        <WhiteKey note="B5" />
-        <WhiteKey note="C6" />
-        <WhiteKey note="D6" />
-        <WhiteKey note="E6" />
-        <WhiteKey note="F6" />
-        <WhiteKey note="G6" />
-        <WhiteKey note="A6" />
-        <WhiteKey note="B6" />
-        <WhiteKey note="C7" />
+        <WhiteKey note="C5" playKey={props.keyCode} />
+        <WhiteKey note="D5" playKey={props.keyCode} />
+        <WhiteKey note="E5" playKey={props.keyCode} />
+        <WhiteKey note="F5" playKey={props.keyCode} />
+        <WhiteKey note="G5" playKey={props.keyCode} />
+        <WhiteKey note="A5" playKey={props.keyCode} />
+        <WhiteKey note="B5" playKey={props.keyCode} />
+        <WhiteKey note="C6" playKey={props.keyCode} />
+        <WhiteKey note="D6" playKey={props.keyCode} />
+        <WhiteKey note="E6" playKey={props.keyCode} />
+        <WhiteKey note="F6" playKey={props.keyCode} />
+        <WhiteKey note="G6" playKey={props.keyCode} />
+        <WhiteKey note="A6" playKey={props.keyCode} />
+        <WhiteKey note="B6" playKey={props.keyCode} />
+        <WhiteKey note="C7" playKey={props.keyCode} />
       </div>
       <div className="black-keys">
-        <BlackKey note="Csh5" />
-        <BlackKey note="Dsh5" />
-        <BlackKey note="Fsh5" />
-        <BlackKey note="Gsh5" />
-        <BlackKey note="Ash5" />
-        <BlackKey note="Csh6" />
-        <BlackKey note="Dsh6" />
-        <BlackKey note="Fsh6" />
-        <BlackKey note="Gsh6" />
-        <BlackKey note="Ash6" />
+        <BlackKey note="Csh5" playKey={props.keyCode} />
+        <BlackKey note="Dsh5" playKey={props.keyCode} />
+        <BlackKey note="Fsh5" playKey={props.keyCode} />
+        <BlackKey note="Gsh5" playKey={props.keyCode} />
+        <BlackKey note="Ash5" playKey={props.keyCode} />
+        <BlackKey note="Csh6" playKey={props.keyCode} />
+        <BlackKey note="Dsh6" playKey={props.keyCode} />
+        <BlackKey note="Fsh6" playKey={props.keyCode} />
+        <BlackKey note="Gsh6" playKey={props.keyCode} />
+        <BlackKey note="Ash6" playKey={props.keyCode} />
       </div>
     </div>
   );

@@ -3,8 +3,7 @@ import React from "react";
 import "./WhiteKey.scss";
 
 export function WhiteKey(props) {
-  function handleClick(event) {
-    let element = event.target;
+  function handleClick() {
     let audio = new Audio(`/assets/keys/${props.note}.ogg`);
     audio.play();
   }
@@ -12,8 +11,8 @@ export function WhiteKey(props) {
   return (
     <div
       className="white-key"
-      onClick={(event) => {
-        handleClick(event);
+      onClick={() => {
+        handleClick();
       }}
     ></div>
   );

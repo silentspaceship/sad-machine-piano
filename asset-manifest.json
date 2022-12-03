@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/sad-machine-piano/static/css/main.2d29d565.css",
+    "main.js": "/sad-machine-piano/static/js/main.376247e6.js",
+    "index.html": "/sad-machine-piano/index.html",
+    "main.2d29d565.css.map": "/sad-machine-piano/static/css/main.2d29d565.css.map",
+    "main.376247e6.js.map": "/sad-machine-piano/static/js/main.376247e6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2d29d565.css",
+    "static/js/main.376247e6.js"
+  ]
+}
